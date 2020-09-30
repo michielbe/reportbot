@@ -21,5 +21,5 @@ Discord bot that allows users to report messages by adding a reaction
 1. React to any message you want to report with the chosen report emoji.
 2. ReportBot will instantly remove the reaction so your report is relatively anonymous.
 3. ReportBot will send a message to the chosen channel with your report information.
-   This includes the messages content, author, channel, who reported and a link to the message.
+- *This includes the messages content, author, channel, who reported and a link to the message.*
 4. You will receive a DM confirming that your report was recieved.
