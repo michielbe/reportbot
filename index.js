@@ -26,7 +26,7 @@ client.on('messageReactionAdd', async (reaction, user) => {
 			{name: 'Link', value: `[Go to Message](https://discordapp.com/channels/${config.guildID}/${reaction.message.channel.id}/${reaction.message.id}) :arrow_right:`},
 			)
 		.setTimestamp()
-		.setFooter('React with 👍 to acknowldge')
+		.setFooter('React with 👍 to acknowledge')
 		client.channels.cache.get(config.channelID).send(reportEmbed);
 		user.send(config.message);
 		return;
