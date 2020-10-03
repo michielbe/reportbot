@@ -1,5 +1,5 @@
 //Discord bot token
-exports.token = 'Bot_token_goes_here';
+exports.token = 'bot_token';
 
 //the colour of the report embed
 exports.embedColor = '#7289DA';
