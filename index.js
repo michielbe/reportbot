@@ -16,7 +16,7 @@ client.on('messageReactionAdd', async (reaction, user) => {
 			var message = 'Embedded Content'
 		}
 		const reportEmbed = new Discord.MessageEmbed()
-		.setColor(`0x${config.embedColor}`)
+		.setColor(config.embedColor)
 		.setTitle('Report :triangular_flag_on_post:')
 		.addFields(
 			{name: 'Message', value: message},
