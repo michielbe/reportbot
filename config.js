@@ -2,7 +2,7 @@
 exports.token = 'Bot_token_goes_here';
 
 //the colour of the report embed
-exports.embedColor = '7289DA';
+exports.embedColor = '#7289DA';
 
 //emoji id used for reporting, to get the id enter "\:emojiname:" without qoutes in Discord
 exports.emojiID = 'emoji_id';
