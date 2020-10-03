@@ -17,7 +17,7 @@ client.on('messageReactionAdd', async (reaction, user) => {
 		}
 		const reportEmbed = new Discord.MessageEmbed()
 		.setColor(config.embedColor)
-		.setTitle('Report :triangular_flag_on_post:')
+		.setTitle('User Report :triangular_flag_on_post:')
 		.addFields(
 			{name: 'Message', value: message},
 			{name: 'Author', value: reaction.message.author, inline: true},
