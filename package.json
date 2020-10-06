@@ -5,13 +5,20 @@
   "main": "index.js",
   "dependencies": {
     "discord.js": "^12.3.1",
-    "node.js": "0.0.1-security"
+    "node.js": "^0.0.1-security"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Astrid",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaziePants/reportbot.git"
+  },
+  "author": "Astrid <daziepants@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaziePants/reportbot/issues"
+  },
+  "homepage": "https://github.com/DaziePants/reportbot#readme"
 }

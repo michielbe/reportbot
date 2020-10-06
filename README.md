@@ -5,7 +5,8 @@ Discord bot that allows users to report messages by adding a reaction
 ## Installation
 
 - Create a discord bot here: https://discord.com/developers/applications
-- Open a terminal in the folder the bot is in
+- `git clone https://github.com/DaziePants/reportbot.git`
+- `cd reportbot`
 - `npm install`
 - Fill in the `config.js` file.
 
