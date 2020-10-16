@@ -20,9 +20,9 @@ client.on('messageReactionAdd', async (reaction, user) => {
 		.setTitle('User Report :triangular_flag_on_post:')
 		.addFields(
 			{name: 'Message', value: message},
-			{name: 'Author', value: reaction.message.author, inline: true},
+			{name: 'Author', value: reaction.message.author.tag, inline: true},
 			{name: 'Channel', value: `#${reaction.message.channel.name}`, inline: true},
-			{name: 'Reported By', value: user, inline: true},
+			{name: 'Reported By', value: user.tag, inline: true},
 			{name: 'Link', value: `[Go to Message](https://discordapp.com/channels/${config.guildID}/${reaction.message.channel.id}/${reaction.message.id}) :arrow_right:`},
 			)
 		.setTimestamp()
