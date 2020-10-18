@@ -15,7 +15,6 @@ Discord bot that allows users to report messages by adding a reaction
 - `npm install pm2@latest -g`
 - `pm2 start ecosystem.config.js`
 - `pm2 status`, and confirm `ReportBot` is running
-
 * If not using pm2: `node .`
 
 ## How it works
