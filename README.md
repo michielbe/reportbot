@@ -3,6 +3,7 @@
 Discord bot that allows users to report messages by adding a reaction
 
 ## Installation
+
 - Create a discord bot here: https://discord.com/developers/applications
 - `git clone https://github.com/DaziePants/reportbot.git`
 - `cd reportbot`
@@ -18,6 +19,7 @@ Discord bot that allows users to report messages by adding a reaction
 - If not using pm2: `node .`
 
 ## How it works
+
 1. React to any message you want to report with the chosen report emoji.
 2. ReportBot will instantly remove the reaction so your report is relatively anonymous.
 3. ReportBot will send a message to the chosen channel with your report information*.
