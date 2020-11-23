@@ -6,14 +6,14 @@ Custom report emoji included.
 
 ## Installation
 
-- Create a discord bot here: https://discord.com/developers/applications
+- Create a [Discord bot](https://discord.com/developers/applications)
 - `git clone https://github.com/DaziePants/reportbot.git`
 - `cd reportbot`
 - `npm install`
 - Fill in the `config.js` file.
 
 **SUGGESTED WAY TO RUN**
-- Install PM2: https://pm2.keymetrics.io/docs/usage/quick-start/
+- Install [PM2](https://pm2.keymetrics.io/docs/usage/quick-start/)
 - `npm install pm2@latest -g`
 - `pm2 start ecosystem.config.js`
 - `pm2 status`, and confirm `ReportBot` is running
