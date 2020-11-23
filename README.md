@@ -23,7 +23,7 @@ Custom report emoji included.
 
 1. React to any message you want to report with the chosen report emoji.
 2. ReportBot will instantly remove the reaction so your report is relatively anonymous.
-3. ReportBot will send a message to the chosen channel with your report information*.
+3. ReportBot will send a message to the chosen channel with your report information. [^1]
 4. You will receive a DM confirming that your report was recieved.
 
-*This includes the messages content, author, channel, who reported and a link to the message.
+[^1]: This includes the messages content, author, channel, who reported and a link to the message.
