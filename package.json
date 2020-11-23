@@ -15,7 +15,7 @@
     "url": "git+https://github.com/DaziePants/reportbot.git"
   },
   "author": "Astrid <daziepants@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DaziePants/reportbot/issues"
   },
