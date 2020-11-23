@@ -1,6 +1,7 @@
 # Report Bot
 
-Discord bot that allows users to report messages by adding a reaction
+Discord bot that allows users to report messages by adding a reaction.
+Custom report emoji included.
 
 ## Installation
 
