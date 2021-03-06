@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const config = require("./config");
 const client = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
+require('dotenv').config();
 
 client.once('ready', () => {
 	console.log('ready!');
@@ -33,4 +34,4 @@ client.on('messageReactionAdd', async (reaction, user) => {
 	}
 });
 
-client.login(config.token);
+client.login(process.env.TOKEN);
